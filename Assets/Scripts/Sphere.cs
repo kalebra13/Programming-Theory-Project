@@ -1,3 +1,4 @@
+// INHERITANCE
 public class Sphere : Shape
 {
     private void Start()
@@ -5,8 +6,9 @@ public class Sphere : Shape
         Color = "green";
     }
 
+    // POLYMORPHISM
     protected override void DisplayText()
     {
-        m_textToDisplay.SetText("I am cute sphere and " + m_Color + " is my favorite color");
+        ShowText("I am cute sphere and " + m_Color + " is my favorite color");
     }
 }

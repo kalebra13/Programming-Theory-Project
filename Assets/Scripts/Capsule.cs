@@ -1,3 +1,4 @@
+// INHERITANCE
 public class Capsule : Shape
 {
     private void Start()
@@ -5,8 +6,9 @@ public class Capsule : Shape
         Color = "yellow";
     }
 
+    // POLYMORPHISM
     protected override void DisplayText()
     {
-        m_textToDisplay.SetText("I am massive " + m_Color + " capsule");
+        ShowText("I am massive " + m_Color + " capsule");
     }
 }
